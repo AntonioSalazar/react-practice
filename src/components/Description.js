@@ -1,0 +1,11 @@
+import React from "react";
+
+const description = (props) => {
+  return(
+    <h3>
+      {props.description}
+    </h3>
+  )
+}
+
+export default description
